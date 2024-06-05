@@ -7,7 +7,13 @@ print(dad + 20)
 print(lil_bro + 20)
 
 
- 
+ # Task6.
+user_name = input("Please enter your name: ")
+user_lastname = input("Please enter your lastname: ")
+user_age = input("Please enter your age: ") 
+
+print("Your inputed information is:",user_name,user_lastname,user_age)
+
 
 
 
