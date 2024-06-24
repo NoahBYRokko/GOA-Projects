@@ -67,6 +67,8 @@ elif i == 3:
     print(num1 * num2)
 elif i == 4:
     print(num1 / num2)
+else:
+    print("Invalid Operation")
 
 
 
