@@ -14,3 +14,5 @@ print(50 >= num1 or num1 >= 100)
 for i in range(10):
     print("Bachi")
       
+      
+#....
