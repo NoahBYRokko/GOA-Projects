@@ -16,4 +16,3 @@ discount = 2
 total = price - discount
 print(total)
 
-#...
