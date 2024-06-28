@@ -196,4 +196,50 @@ print(total_length)
 
 # 3:
 
-game_results = [["Team A", 10], ["Team B", 5], ["Team A", 8]]
+game_results = []
+team_scores = {"Team A": 0, "Team B": 0}
+
+for game in game_results:
+    if game["home_team"] in team_scores:
+        team_scores[game["home_team"]] += game["home_score"]
+    else:
+        team_scores[game["away_team"]] += game["away_score"]
+
+print("Total scores:", team_scores)
+
+# 4:
+
+def sum_nested_list(lst):
+    result = 0
+    for elem in lst:
+        if isinstance(elem, list):
+            result += sum_nested_list(elem)
+        else:
+            result += elem
+    return result
+
+nested_list = [1, 2, [3, 4], [5, [6, 7], 8]]
+print(sum_nested_list(nested_list))
+
+'''Len:
+
+1)Find the length of a list of 10 random integers.
+
+2)Determine the number of elements in a list of strings representing weekdays.
+
+3)Calculate the length of a nested list.'''
+
+# 1:
+
+numbers = [1, 2, 3, 4, 5]
+print(len(numbers))
+
+# 2:
+
+weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+print(len(weekdays))
+
+# 3:
+
+nested_list = [1, 2, [3, 4], [5, [6, 7], 8]]
+print(len(nested_list))
