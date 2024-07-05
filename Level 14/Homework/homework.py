@@ -66,14 +66,8 @@ boolean_list = [True, True, False, True, False]
 x = boolean_list.count(True)
 print(x)
 
-# 4:
+# 4: [Unfinished]
 
-import itertools
-
-nested_list = [1, 2, 3, 4], [5, 6, [3, 4]]
-target_sublists = [3, 4]
-result = sum(1 for elem in itertools.chain.from_iterable(nested_list) if elem == target_sublists)
-print(result)
 
 '''Max:
 
