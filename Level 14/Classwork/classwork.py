@@ -72,3 +72,6 @@ numbers.pop()
 numbers.pop(0)
 
 print(numbers)
+
+
+
